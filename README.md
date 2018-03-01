@@ -50,3 +50,4 @@ https://www.newmobilelife.com/2016/03/18/8-android-widget/
 ## 參考
 https://developer.android.com/guide/topics/appwidgets/index.html#AppWidgetProvider
 http://blog.csdn.net/u012792686/article/details/73810655
+http://glgjing.github.io/blog/2015/11/05/android-kai-fa-zhi-app-widget-xiang-jie/
