@@ -25,3 +25,25 @@ https://www.newmobilelife.com/2016/03/18/8-android-widget/
  - onDisabled(Context) - 最後一次 Widget 被移除的時候 call ，適合結束掉一些 work 或是清除 database
  - onReceive(Context, Intent) - 樓上每個 call back 都會 call 一次 (非必要 implement)
  - onAppWidgetOptionsChanged() - 每當 widget 在重新定義大小時會被 call
+ 
+## 支援的 view
+因為 App Widget 是透過 RemoteView 來做跨進程(ex. 桌面程式 <-> 自己的 App )的傳遞，並非所有view都適用，以下是支援的 view
+> FrameLayout<br>
+> LinearLayout<br>
+> RelativeLayout<br>
+> GridLayout<br>
+
+> AnalogClock <br>
+> Button <br>
+> Chronometer - http://androidbiancheng.blogspot.tw/2011/04/android-chronometer.html<br>
+> ImageButton <br>
+> ImageView <br>
+> ProgressBar<br>
+> TextView<br>
+> ViewFlipper - https://www.youtube.com/watch?v=k_Y4OGL8DTA<br>
+> ListView<br>
+> GridView<br>
+> StackView - http://www.thaicreate.com/mobile/android-stackview.html<br>
+> AdapterViewFlipper - https://www.jianshu.com/p/6d616dce99d9<br>
+
+- RemoteViews 特別也支持 ViewStub ， 可以一開始讓 view 為隱藏，晚一點在 inflate
