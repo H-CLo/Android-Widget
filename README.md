@@ -33,7 +33,7 @@ https://www.newmobilelife.com/2016/03/18/8-android-widget/
 > RelativeLayout<br>
 > GridLayout<br>
 
-> AnalogClock <br>
+> AnalogClock - https://www.mkyong.com/android/android-analogclock-and-digitalclock-example/<br>
 > Button <br>
 > Chronometer - http://androidbiancheng.blogspot.tw/2011/04/android-chronometer.html<br>
 > ImageButton <br>
@@ -47,3 +47,5 @@ https://www.newmobilelife.com/2016/03/18/8-android-widget/
 > AdapterViewFlipper - https://www.jianshu.com/p/6d616dce99d9<br>
 
 - RemoteViews 特別也支持 ViewStub ， 可以一開始讓 view 為隱藏，晚一點在 inflate
+## 參考
+https://developer.android.com/guide/topics/appwidgets/index.html#AppWidgetProvider
