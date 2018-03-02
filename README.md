@@ -54,7 +54,7 @@ https://www.newmobilelife.com/2016/03/18/8-android-widget/
 <br>http://blog.csdn.net/u012792686/article/details/73604254
 
 # Floating View
-另一個較多彈性的 view，只要在 WindowManager.addView 即可，像是 FB chat 那樣漂浮在畫面最頂層，不像 App Widget 限定的
+另一個較多彈性的 view，只要在 WindowManager.addView 即可，像是 FB chat 那樣漂浮在畫面最頂層，不像 App Widget 限定特定 view
 <br>教學連結：https://www.androidhive.info/2016/11/android-floating-widget-like-facebook-chat-head/
 > 問題1.Android 6 權限問題 https://www.jianshu.com/p/2746a627c6d2
 > <br>問題2.Android 8 Service限制 可能用 JobScheduler 取代（尚未試過） https://developer.android.com/reference/android/app/job/JobScheduler.html?hl=zh-cn
